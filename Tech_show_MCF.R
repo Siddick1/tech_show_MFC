@@ -4,7 +4,6 @@ data()
 airquality
 # The different graphs
 mod=lm(Temp ~ Wind + Ozone,airquality)
-#plot(lm(Temp ~ Wind + Ozone,airquality))
-#plot(lm(Temp ~ Wind + Ozone,airquality))
+plot(lm(Temp ~ Wind + Ozone,airquality))
 # The summary of the linear regression
 summary(lm(Temp ~ Wind + Ozone,airquality))
